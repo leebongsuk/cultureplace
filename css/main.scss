@@ -1,0 +1,108 @@
+.wrap_category {
+}
+.top {
+    width: 1140px;
+    height: 80px;
+    .top_nav {
+        max-width: 1140px;
+        height: 80px;
+        padding: 20px 10px 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    width: 257px;
+    height: 347.97px;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+
+    li {
+        width: 255px;
+        height: 347px;
+        margin-right: 40px;
+        .jsx {
+            width: 257px;
+            height: 348px;
+            border: 1px solid rgb(236, 236, 233);
+            border-radius: 8px;
+        }
+    }
+    .thumb {
+        width: 255px;
+        height: 170px;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+        .sticker1 {
+            width: 40px;
+            height: 20px;
+            display: flex;
+            top: 10px;
+            left: 10px;
+            position: absolute;
+            z-index: 10;
+            align-items: flex-start;
+        }
+        span {
+            color: white;
+            margin: 0px 3px 6px 0px;
+            padding: 1px 5px;
+            font-size: 13px;
+            border-radius: 1px;
+        }
+
+        .sticker {
+            width: 60.05px;
+            height: 20px;
+            display: flex;
+            top: 10px;
+            left: 10px;
+            position: absolute;
+            z-index: 10;
+            align-items: flex-start;
+            span {
+                color: white;
+
+                margin: 0px 3px 6px 0px;
+                padding: 1px 5px;
+                font-size: 13px;
+                letter-spacing: -1.5px;
+                font-weight: normal;
+                border-radius: 1px;
+            }
+            .endtime {
+                background-color: red;
+            }
+            .new {
+                background-color: rgb(51, 179, 77);
+            }
+        }
+    }
+
+    .nav {
+        width: 255px;
+        height: 176px;
+        padding: 12px;
+    }
+    h3 {
+        font-size: 20px;
+        letter-spacing: -0.2px;
+    }
+    p {
+        font-size: 15px;
+        letter-spacing: -0.2px;
+    }
+    span {
+        letter-spacing: -0.2px;
+        font-size: 13px;
+    }
+}
